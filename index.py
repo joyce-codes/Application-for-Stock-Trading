@@ -25,7 +25,6 @@ def after_request(response):
     response.headers["Pragma"] = "no-cache"
     return response
 
-
 # Custom filter
 app.jinja_env.filters["usd"] = usd
 
@@ -41,7 +40,6 @@ db = SQL("sqlite:///finance.db")
 # Make sure API key is set
 if not os.environ.get("IEX_KEY"):
     raise RuntimeError("IEX_KEY not set")
-
 
 @app.route("/")
 @login_required
