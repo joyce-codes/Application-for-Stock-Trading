@@ -10,9 +10,6 @@ from datetime import datetime
 
 
 
-s
-
-
 
 
 
