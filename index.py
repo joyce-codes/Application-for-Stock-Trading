@@ -10,10 +10,6 @@ from datetime import datetime
 
 
 
-
-
-
-
 from helpers import apology, login_required, lookup, usd
 
 # Configure application
