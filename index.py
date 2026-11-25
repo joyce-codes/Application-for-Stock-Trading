@@ -14,7 +14,6 @@ from datetime import datetime
 
 
 
-k
 from helpers import apology, login_required, lookup, usd
 
 # Configure application
